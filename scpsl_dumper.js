@@ -660,12 +660,7 @@ async function main() {
   if (argv.includes("-v") || argv.includes("--verbose")) verbose = true;
   if (argv.includes("-q") || argv.includes("--quiet")) quiet = true;
 
-  let gameName =
-    path
-      .basename(cliDir || "game")
-      .replace(/[^a-zA-Z0-9_-]/g, "_")
-      .replace(/_+/g, "_")
-      .replace(/^_|_$/g, "") || "Game";
+  const gameName = "scpsl";
 
   // 1 - find game
   info("1/6 locating game...");
