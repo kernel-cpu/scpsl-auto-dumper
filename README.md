@@ -1,0 +1,1 @@
+# scpsl-auto-dumper
