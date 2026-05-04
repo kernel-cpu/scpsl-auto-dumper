@@ -1,4 +1,4 @@
-# il2cpp-autodump
+# SCP:SL il2cpp-autodump
 
 auto-patching and dumping tool for SCP: Secret Laboratory metadata. detects the file version, tests candidates and runs Il2CppDumper without any manual work.
 
